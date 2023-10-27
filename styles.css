@@ -1,0 +1,77 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-image: url(file:///C:/Users/ADMIN/Downloads/georgie-cobbs-muOHbrFGEQY-unsplash.jpg); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh; /* Set to the viewport height for full-screen background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Apply some basic styles to the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #007acc;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.project {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
